@@ -25,6 +25,10 @@ Notes:
 
 The Event Filter should ideally have AND/OR condition matching logic and should also allow the application of changes to the `watched_items.conf` file without stopping `cn_monitor.py` or losing events.
 
+## Example of an event:
+
+`{'type': 'child_file_added', 'spine': ['2', '10003', '5007655', '1459590167'], 'path': 'home/joe/fff2', 'stream_name': None}`
+
 ## Sample Possible Action Modules:
 
 - Quarantine specific file types (.jpg, .zip, .mp4, etc)
