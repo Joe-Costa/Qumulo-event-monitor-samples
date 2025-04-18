@@ -14,6 +14,21 @@ The workflow would consist of:
 
 - A Docker or Kubernetes deployment to run all of the above.
 
+## RBAC privileges required
+
+This script requires a valid session token for a user with the following RBAC privilege:
+
+`['PRIVILEGE_FILE_READ_ACCESS']`
+
+![RBAC](./screenshot/rbac.png)
+
+## Helpful Qumulo Care Articles:
+
+[How to get an Access Token](https://care.qumulo.com/hc/en-us/articles/360004600994-Authenticating-with-Qumulo-s-REST-API#acquiring-a-bearer-token-by-using-the-web-ui-0-3) 
+
+[Qumulo Role Based Access Control](https://care.qumulo.com/hc/en-us/articles/360036591633-Role-Based-Access-Control-RBAC-with-Qumulo-Core#managing-roles-by-using-the-web-ui-0-7)
+
+
 ## Hypothetical sample workflow:
 
 1. An event watcher script monitors all recursive changes to a cluster's root directory
