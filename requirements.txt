@@ -1,0 +1,7 @@
+urllib3
+aiohttp
+requests
+pyyaml
+configparser
+asyncio
+json
