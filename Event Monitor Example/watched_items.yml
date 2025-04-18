@@ -1,0 +1,21 @@
+PATHS:
+  - /home/joe
+  - /home/bob
+
+EXTENSIONS:
+  - .bak
+  - .jpg
+  - .txt
+  - .rtf
+  - .log
+
+EVENTS:
+  - child_file_added
+  - child_dir_added
+  - child_file_removed
+  - child_dir_removed
+  - child_file_moved_from
+  - child_file_moved_to
+  - child_dir_moved_from
+  - child_dir_moved_to
+  - child_data_written
